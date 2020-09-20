@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr format="reference" name="detailTextColor"/>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="hud_blue">#0000FF</color>
+    <color name="hud_dark_gray">#939393</color>
+    <color name="hud_green">#00FF7D</color>
+    <color name="hud_light_gray">#C8C8C8</color>
+    <color name="hud_red">#FC101B</color>
+    <color name="hud_transparent">#000000</color>
+    <color name="hud_white">#FFFFFF</color>
+    <color name="hud_yellow">#F2F100</color>
+    <dimen name="action_menu_height">@dimen/action_menu_item_size_selected</dimen>
+    <dimen name="action_menu_item_background_normal_padding">5dp</dimen>
+    <dimen name="action_menu_item_background_normal_width">3dp</dimen>
+    <dimen name="action_menu_item_icon_padding_icon_only">20dp</dimen>
+    <dimen name="action_menu_item_icon_padding_with_text">5dp</dimen>
+    <dimen name="action_menu_item_size_normal">90dp</dimen>
+    <dimen name="action_menu_item_size_selected">120dp</dimen>
+    <dimen name="action_menu_item_text_size_normal">14sp</dimen>
+    <dimen name="action_menu_item_text_size_selected">18sp</dimen>
+    <item name="menu_item_back" type="id"/>
+    <integer name="action_menu_animation_duration">200</integer>
+    <string name="accessibility_service_description">Accessibility Service Description</string>
+    <string name="accessibility_service_label">Accessibility Service</string>
+    <string name="app_name">BladesAccessibilityApp</string>
+    <string name="back">Back</string>
+    <style name="ActionMenuAnimationStyle">
+        <item name="android:windowEnterAnimation">@anim/action_menu_enter_animation</item>
+        <item name="android:windowExitAnimation">@anim/action_menu_exit_animation</item>
+    </style>
+    <style name="AppTheme" parent="HudTheme">
+        <!-- Customize your theme here. -->
+
+    </style>
+    <style name="AppTheme.Light" parent="HudTheme.Light">
+        <!-- Customize your theme here. -->
+
+    </style>
+    <style name="HudTheme" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:colorAccent">@color/hud_green</item>
+        <item name="android:windowBackground">@drawable/background_dark</item>
+        <item name="android:textViewStyle">@style/HudTheme.TextView</item>
+        <item name="detailTextColor">@color/hud_white</item>
+    </style>
+    <style name="HudTheme.Light" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:colorAccent">@color/hud_green</item>
+        <item name="android:windowBackground">@drawable/background_light</item>
+        <item name="android:textViewStyle">@style/HudTheme.Light.TextView</item>
+        <item name="detailTextColor">@color/hud_transparent</item>
+    </style>
+    <style name="HudTheme.Light.TextView" parent="@android:style/Widget.Material.Light.TextView">
+        <item name="android:textColor">@color/hud_transparent</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+    <style name="HudTheme.TextView" parent="@android:style/Widget.Material.TextView">
+        <item name="android:textColor">@color/hud_green</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+    <style name="details_list_label">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_gravity">end</item>
+        <item name="android:layout_marginStart">5dp</item>
+    </style>
+    <style name="details_list_value" parent="details_list_label">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">?detailTextColor</item>
+        <item name="android:layout_gravity">start</item>
+    </style>
+</resources>

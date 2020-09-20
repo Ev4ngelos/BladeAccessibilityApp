@@ -1,0 +1,100 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/Evangelos/Development/Blades/BladeAccessibilityApp/blade_app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "map": [
+                {
+                    "source": "/Users/Evangelos/Development/Blades/BladeAccessibilityApp/blade_app/src/main/res/values/colors.xml",
+                    "from": {
+                        "startLines": "4,2,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "153,55,102",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "194,97,148"
+                    },
+                    "to": {
+                        "startLines": "3,4,5",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "109,155,202",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "150,197,248"
+                    }
+                },
+                {
+                    "source": "/Users/Evangelos/Development/Blades/BladeAccessibilityApp/blade_app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "2,7",
+                        "startColumns": "4,4",
+                        "startOffsets": "17,122",
+                        "endLines": "5,10",
+                        "endColumns": "12,12",
+                        "endOffsets": "116,233"
+                    },
+                    "to": {
+                        "startLines": "33,37",
+                        "startColumns": "4,4",
+                        "startOffsets": "1859,1963",
+                        "endLines": "36,40",
+                        "endColumns": "12,12",
+                        "endOffsets": "1958,2074"
+                    }
+                },
+                {
+                    "source": "/Users/Evangelos/.gradle/caches/transforms-2/files-2.1/f8ab852940c8e2a1ef48c66d0fde76e6/jetified-hud-actionmenu-1.3/res/values/values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,138,211,282,353,423,483,546,611,678,722,787,825",
+                        "endLines": "2,3,4,5,6,7,8,9,10,11,12,13,17",
+                        "endColumns": "82,72,70,70,69,59,62,64,66,43,64,37,12",
+                        "endOffsets": "133,206,277,348,418,478,541,606,673,717,782,820,1057"
+                    },
+                    "to": {
+                        "startLines": "14,15,16,17,18,19,20,21,22,23,24,28,29",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "618,701,774,845,916,986,1046,1109,1174,1241,1285,1584,1622",
+                        "endLines": "14,15,16,17,18,19,20,21,22,23,24,28,32",
+                        "endColumns": "82,72,70,70,69,59,62,64,66,43,64,37,12",
+                        "endOffsets": "696,769,840,911,981,1041,1104,1169,1236,1280,1345,1617,1854"
+                    }
+                },
+                {
+                    "source": "/Users/Evangelos/.gradle/caches/transforms-2/files-2.1/a588bdab61d9d45ae33e9caea7cab417/jetified-hud-resources-1.2/res/values/values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,17,23,27,31,40",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,109,152,200,244,293,335,385,429,474,846,1243,1473,1685,2144",
+                        "endLines": "2,3,4,5,6,7,8,9,10,16,22,26,30,39,46",
+                        "endColumns": "53,42,47,43,48,41,49,43,44,12,12,12,12,12,12",
+                        "endOffsets": "104,147,195,239,288,330,380,424,469,841,1238,1468,1680,2139,2506"
+                    },
+                    "to": {
+                        "startLines": "2,6,7,8,9,10,11,12,13,41,47,53,57,61,70",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,253,296,344,388,437,479,529,573,2079,2451,2848,3078,3290,3749",
+                        "endLines": "2,6,7,8,9,10,11,12,13,46,52,56,60,69,76",
+                        "endColumns": "53,42,47,43,48,41,49,43,44,12,12,12,12,12,12",
+                        "endOffsets": "104,291,339,383,432,474,524,568,613,2446,2843,3073,3285,3744,4111"
+                    }
+                },
+                {
+                    "source": "/Users/Evangelos/Development/Blades/BladeAccessibilityApp/blade_app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "3,2,1",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "154,76,16",
+                        "endColumns": "95,77,59",
+                        "endOffsets": "245,149,71"
+                    },
+                    "to": {
+                        "startLines": "25,26,27",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "1350,1446,1524",
+                        "endColumns": "95,77,59",
+                        "endOffsets": "1441,1519,1579"
+                    }
+                }
+            ]
+        }
+    ]
+}
